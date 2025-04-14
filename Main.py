@@ -15,7 +15,7 @@ tempfile → Creates a temporary file to store the recorded audio.
 import os
 from dotenv import load_dotenv
 
-DEEPGRAM_API_KEY = "8fe3bc788555b945bf5a8f9a75becaab39e27c0b"
+DEEPGRAM_API_KEY = ""
 
 # Function to record audio
 def record_audio(duration=5, sample_rate=44100):
